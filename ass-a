@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Results - AcademicPulse</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6f8;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Title */
+.title {
+    font-size: 60px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+/* Main layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* LEFT BOX (Assessment) */
+.box {
+    background: #e6e6e6;
+    border-radius: 20px;
+    width: 45%;
+    padding: 30px;
+    box-shadow: 8px 8px 0px #9bbad1;
+}
+.answer {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.box label {
+    display: block;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.box-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* RIGHT SIDE */
+.right {
+    width: 45%;
+}
+
+/* QUOTE BOX */
+.quote-box {
+    background: #86b6cf;
+    border-radius: 20px;
+    padding: 30px;
+    border: 5px solid black;
+    height: 200px;
+    position: relative;
+    font-size: 40px;
+}
+
+.quote-box p {
+    margin: 0;
+}
+
+.quote-author {
+    position: absolute;
+    bottom: 20px;
+}
+
+/* RATING BOX */
+.rating-box {
+    margin-top: 40px;
+    background: #86b6cf;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stars {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd;
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.rating label:hover,
+.rating label:hover ~ label {
+    color: gold;
+}
+.rating input:checked ~ label {
+    color: gold;
+}
+</style>
+</head>
+
+<body>
+
+<a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/admin-hme.html">
+    <img src="121-removebg-preview.png" alt="Logo">
+</a>
+<form action="file:///C:/Users/osabe/OneDrive/Desktop/wawa/admin-hme.html" method="get">
+
+<div class="title">Results</div>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="box">
+        <div class="box-title"><b>*Assessment*</b></div>
+<div class="answer"></div>
+        <div class="text">hahay</div>
+<div class="answer"></div>
+        <div class="text">dali ra tana ni</div>
+<div class="answer"></div>
+        <div class="text">kung pwede palang</div>
+<div class="answer"></div>
+        <div class="text">mogamit og JavaScript</div>
+<div class="answer"></div>
+        <div class="text">Saon taman</div>
+<div class="answer"></div>
+        <div class="text">HTML & CSS raman daw gamiton</div>
+<div class="answer"></div>
+        <div class="text">Haysttt......... </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <!-- Quote -->
+        <div class="quote-box">    
+            <p><b>"Yuta gani nga titolado mailog pa, siya pa kaha nga uyab ra"</b></p>
+            <p class="quote-author">Justine Lee Caballero & Justine Gaamil</p>
+        </div>
+<div class="rating-box">
+    <p><b>Rate your experience</b></p>
+
+    <div class="rating">
+        <input type="radio" name="star" id="star5"><label for="star5">★</label>
+        <input type="radio" name="star" id="star4"><label for="star4">★</label>
+        <input type="radio" name="star" id="star3"><label for="star3">★</label>
+        <input type="radio" name="star" id="star2"><label for="star2">★</label>
+        <input type="radio" name="star" id="star1"><label for="star1">★</label>
+    </div>
+
+    <button>Submit Feedback</button>
+</div>
+
+</div>
+</form>
+</body>
+</html>
