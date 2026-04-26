@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Academic Pulse</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #6e99c0;
+            padding: 10px 20px;
+            color: white;
+        }       
+	 header img {
+            height: 50px;
+            cursor: pointer;
+	}
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+	}
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+
+	}
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/login.html">
+        <img src="121-removebg-preview.png" alt="Logo">
+</a>
+   	 <h2>Academic Pulse</h2>
+</header>
+
+<div class="container">
+    <div class="box">
+        <p>
+            Academic Pulse helps students track and improve their academic performance.
+        </p>
+        <p>
+            Our goal is to make learning easier, smarter, and more accessible for everyone.
+        </p>
+<br><br>
+<p> Contact us by reaching out to:</p>
+<p>(Primary Contact) CASEÑAS, R.C.</p>
+<p>Contact #: +63994-674-8098 (Philippine Dial number)</p> 
+<p>E-mail address: rosy.casenas@gmail.com</p> 
+ <br>
+<p>(Ayaw e contact kay if mo tubag after a week pa) OSABEL, A.V.</p>
+<p>Contact #: +63935-810-6400 (Philippine Dial number)</p> 
+<p>E-mail address: annvirgo.osabel@gmail.com</p>
+<br><br>
+<p>American Pie by Don McLean</p>
+<p>A long, long time ago</p>
+<p>I can still remember how that music</p>
+<p>Used to make me smile</p>
+<p>And I knew if I had my chance</p>
+<p>That I could make those people dance</p>
+<p>And maybe they'd be happy for a while</p>
+<p>But February made me shiver</p>
+<p>With every paper I'd deliver</p>
+<p>Bad news on the doorstep</p>
+<p>I couldn't take one more step</p>
+<p>I can't remember if I cried</p>
+<p>When I read about his widowed bride</p>
+<p>But something touched me deep inside</p>
+<p>The day the music died</p>
+<br>
+<p>(Chorus)</p>
+<p>So, bye-bye, Miss American Pie</p>
+<p>Drove my Chevy to the levee, 
+but the levee was dry</p>
+<p>And them good ol' boys were drinkin' whiskey and rye</p>
+<p>Singin', "This'll be the day that I die</p>
+<p>This'll be the day that I die"</p>
+<br>
+<p>Did you write the book of love?</p>
+<p>And do you have faith in God above</p>
+<p>If the Bible tells you so?</p>
+<p>Now, do you believe in rock 'n' roll?</p>
+<p>Can music save your mortal soul?</p>
+<p>And can you teach me how to dance real slow?</p>
+<p>Well, I know that you're in love with him</p>
+<p>'Cause I saw you dancin' in the gym</p>
+<p>You both kicked off your shoes</p>
+<p>Man, I dig those rhythm and blues</p>
+<p>I was a lonely teenage broncin' buck</p>
+<p>With a pink carnation and a pickup truck</p>
+<p>But I knew I was out of luck
+The day the music died</p>
+<br>
+<p>(Chorus)</p>
+<br>
+<p> Now, for ten years, we've been on our own</p> 
+<p> And moss grows fat on a rollin' stone</p> 
+<p> But that's not how it used to be</p> 
+<p> When the jester sang for the king and queen</p> 
+<p> In a coat he borrowed from James Dean</p> 
+<p> And a voice that came from you and me</p> 
+<p> Oh, and while the king was looking down</p> 
+<p> The jester stole his thorny crown</p> 
+<p> The courtroom was adjourned</p> 
+<p> No verdict was returned</p> 
+<p> And while Lenin read a book on Marx</p> 
+<p> The quartet practiced in the park</p> 
+<p> And we sang dirges in the dark</p> 
+<p> The day the music died</p> 
+<br>
+<p>(Chorus)</p>
+<br> 
+<p>Helter skelter in a summer swelter</p>
+<p>The birds flew off with a fallout shelter</p>
+<p>Eight miles high and fallin' fast</p>
+<p>It landed foul on the grass</p>
+<p>The players tried for a forward pass</p>
+<p>With the jester on the sidelines in a cast</p>
+<p>Now, the halftime air was sweet perfume</p>
+<p>While sergeants played a marching tune</p>
+<p>We all got up to dance</p>
+<p>Oh, but we never got the chance</p>
+<p>'Cause the players tried to take the field</p>
+<p>The marching band refused to yield</p>
+<p>Do you recall what was revealed</p>
+<p>The day the music died?</p>
+<br>
+<p>(Chorus)</p>
+<br>
+<p>Oh, and there we were all in one place</p>
+<p>A generation lost in space</p>
+<p>With no time left to start again</p>
+<p>So, come on, Jack be nimble, Jack be quick</p>
+<p>Jack Flash sat on a candlestick</p>
+<p>'Cause fire is the Devil's only friend</p>
+<p>Oh, and as I watched him on the stage</p>
+<p>My hands were clenched in fists of rage</p>
+<p>No angel born in Hell</p>
+<p>Could break that Satan spell</p>
+<p>And as the flames climbed high into the night</p>
+<p>To light the sacrificial rite</p>
+<p>I saw Satan laughing with delight</p>
+<p>The day the music died</p>
+<br>
+<p>(Chorus)</p>
+<br>
+<p>I met a girl who sang the blues</p>
+<p>And I asked her for some happy news</p>
+<p>But she just smiled and turned away</p>
+<p>I went down to the sacred store</p>
+<p>Where I'd heard the music years before</p>
+<p>But the man there said the music wouldn't play</p>
+<p>And in the streets, the children screamed</p>
+<p>The lovers cried, and the poets dreamed</p>
+<p>But not a word was spoken</p>
+<p>The church bells all were broken</p>
+<p>And the three men I admire most</p>
+<p>The Father, Son, and the Holy Ghost</p>
+<p>They caught the last train for the coast</p>
+<p>The day the music died</p>
+<br>
+<p>(Chorus)</p>
+<br>
+    </div>
+</div>
+
+</body>
+</html>
