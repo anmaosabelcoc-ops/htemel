@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6f8;
+}
+.box {
+    background: #6e99c0;
+            width: 500px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 10px;
+	    box-shadow: 8px 8px 0px #9bbad1;
+}
+.return-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    border: 3px solid black;
+    padding: 15px 20px;
+    background-color: cyan;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.return-btn:hover {
+    background-color: blue;
+}.view-btn {
+    margin-left: 15px;
+    padding: 5px 12px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+}
+
+.view-btn:hover {
+    background-color: #ddd;
+}
+</style>
+<body>
+<div class="box">
+        <div class="box-title"><b>Assessment</b></div>
+<div class="answer"></div>
+        <div class="text">hahay</div>
+<div class="answer"></div>
+        <div class="text">goods ra tana ni</div>
+<div class="answer"></div>
+        <div class="text">kung pwede palang</div>
+<div class="answer"></div>
+        <div class="text">mogamit og JavaScript</div>
+<div class="answer"></div>
+        <div class="text">Saon taman</div>
+<div class="answer"></div>
+        <div class="text">HTML & CSS raman daw gamiton</div>
+<div class="answer"></div>
+        <div class="text">Haysttt......... </div>
+    </div>
+<a href="result-a.html" class="return-btn">Return</a>
+</body>
+</html>
