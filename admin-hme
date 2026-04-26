@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Academic Pulse</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #6e99c0;
+            padding: 10px 20px;
+            color: white;
+        }
+        header img {
+            height: 50px;
+            cursor: pointer;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/admin-hme.html">
+        <img src="121-removebg-preview.png" alt="Logo">
+    </a>
+
+    <h2>Academic Pulse</h2>
+    <nav>
+        <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/login.html">Logout</a>
+
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Welcome, Indian Madafaka!</h1>
+    <p>You are now logged in!</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Assessments</h3>
+            <p>Start your academic assessments.</p>
+            <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/Assessment.html" class="btn">Open</a>
+        </div>
+
+        <div class="card">
+            <h3>Answers</h3>
+            <p>View previous assessments.(STALKER!)</p>
+            <a href="#" class="btn">View</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
