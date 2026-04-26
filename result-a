@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Results - Academic Pulse</title>
+
+<style>
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #6e99c0;
+            padding: 10px 20px;
+            color: white;
+}        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }       
+nav a:hover {
+            text-decoration: underline;
+
+}
+/* MAIN CONTAINER */
+.main-box {
+    width: 60%;
+    height: 400px;
+    background-color: #469696;
+    margin: 60px auto;
+    border: 4px solid black;
+    padding: 30px;
+    position: relative;
+}
+
+/* TOP TEXT + CIRCLE */
+.top-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 4px solid green;
+    border-radius: 50%;
+}
+
+/* RETURN BUTTON */
+.return-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    border: 3px solid black;
+    padding: 15px 20px;
+    background-color: cyan;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.return-btn:hover {
+    background-color: blue;
+}.view-btn {
+    margin-left: 15px;
+    padding: 5px 12px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+}
+
+.view-btn:hover {
+    background-color: #ddd;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/admin-hme.html">
+        <img src="121-removebg-preview.png" alt="Logo">
+    </a>
+
+    <h2>Academic Pulse</h2>
+    <nav>
+        <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/login.html">Logout</a>
+
+    </nav>
+</header>
+<div class="main-box">
+    
+<div class="top-row">
+    <div class="circle"></div>
+    <div>
+        User's Name (Date)
+        <a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/sunod-sa-result-a.html" class="view-btn">View</a>
+    </div>
+</div>
+
+<a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/admin-hme.html" class="return-btn">Return to homepage</a>
+
+</body>
+</html>
