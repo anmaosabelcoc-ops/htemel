@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assessment</title>
+
+<style>
+body {
+    font-family: Arial;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+/* TOP SECTION */
+.top-section {
+    margin: 30px 0;
+}
+
+.steps {
+    text-align: center;
+}
+
+.step {
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 0 40px;
+    border-radius: 10px;
+    background: #cfcfcf;
+}
+
+.step.active {
+    background: #7da88c;
+    color: white;
+}
+
+.instructions {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.divider {
+    height: 2px;
+    background: black;
+    margin: 20px 0;
+}
+
+/* QUESTIONS */
+.questions {
+    margin-left: 100px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid teal;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.question {
+    width: 250px;
+}
+
+/* EMOJIS WITH LABELS */
+.emojis {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.emoji-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+}
+
+.emoji-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* RADIO BEHAVIOR */
+.emojis input {
+    display: none;
+}
+
+.emojis label {
+    font-size: 28px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+.emojis input:checked + label {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+/* COMMENT BOX */
+.comment-box {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffcccc;
+    border: 2px solid #ff9999;
+    border-radius: 10px;
+    resize: none;
+}
+
+/* BUTTON */
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #b174e7;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #6a9479;
+}
+</style>
+</head>
+
+<body>
+
+<a href="file:///C:/Users/osabe/OneDrive/Desktop/wawa/admin-hme.html">
+    <img src="121-removebg-preview.png" alt="Logo">
+</a>
+
+<div class="container">
+
+<form action="file:///C:/Users/osabe/OneDrive/Desktop/wawa/ass-a.html">
+
+    <div class="top-section">
+        <div class="steps">
+            <div class="step active">Step 1</div>
+        </div>
+
+        <div class="instructions">
+            Please select the emoji that best represents your feeling in the following questions.
+            <p>Uwu</p>
+        </div>
+    </div>
+
+ <div class="questions">
+
+    <!-- ✅ QUESTION 1 (WITH LABELS) -->
+    <div class="row">
+        <div class="circle"></div>
+        <div class="question">How are you feeling right now?</div>
+
+        <div class="emojis">
+
+            <div class="emoji-item">
+                <span class="emoji-text">Happy</span>
+                <input type="radio" name="q1" id="q1-1" required>
+                <label for="q1-1">😊</label>
+            </div>
+
+            <div class="emoji-item">
+                <span class="emoji-text">Sad</span>
+                <input type="radio" name="q1" id="q1-2">
+                <label for="q1-2">😢</label>
+            </div>
+
+            <div class="emoji-item">
+                <span class="emoji-text">Angry</span>
+                <input type="radio" name="q1" id="q1-3">
+                <label for="q1-3">😠</label>
+            </div>
+
+            <div class="emoji-item">
+                <span class="emoji-text">Neutral</span>
+                <input type="radio" name="q1" id="q1-4">
+                <label for="q1-4">😐</label>
+            </div>
+
+            <div class="emoji-item">
+                <span class="emoji-text">Excited</span>
+                <input type="radio" name="q1" id="q1-5">
+                <label for="q1-5">🤩</label>
+            </div>
+
+            <div class="emoji-item">
+                <span class="emoji-text">Tired</span>
+                <input type="radio" name="q1" id="q1-6">
+                <label for="q1-6">😴</label>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ✅ QUESTION 2 (NO LABELS) -->
+    <div class="row">
+        <div class="circle"></div>
+        <div class="question">How are you feeling right now?</div>
+
+        <div class="emojis">
+
+            <div class="emoji-item">
+                <input type="radio" name="q2" id="q2-1" required>
+                <label for="q2-1">😊</label>
+            </div>
+
+            <div class="emoji-item">
+                <input type="radio" name="q2" id="q2-2">
+                <label for="q2-2">😢</label>
+            </div>
+
+            <div class="emoji-item">
+                <input type="radio" name="q2" id="q2-3">
+                <label for="q2-3">😠</label>
+            </div>
+
+            <div class="emoji-item">
+                <input type="radio" name="q2" id="q2-4">
+                <label for="q2-4">😐</label>
+            </div>
+
+            <div class="emoji-item">
+                <input type="radio" name="q2" id="q2-5">
+                <label for="q2-5">🤩</label>
+            </div>
+
+            <div class="emoji-item">
+                <input type="radio" name="q2" id="q2-6">
+                <label for="q2-6">😴</label>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+    <div class="instructions">
+        Reasons for the rating
+    </div>
+
+    <textarea class="comment-box" placeholder="Ses Reason, bano jud ka. Hilak Hilak dayon pag hilom uy, OA rakay ka😜😝" required minlength="20"></textarea>
+
+    <div class="submit-container">
+        <button type="submit" class="submit-btn">Next</button>
+    </div>
+
+</form>
+
+</div>
+
+</body>
+</html>
